@@ -4,7 +4,7 @@
 // @version      1.3
 // @description  每15分鐘彈窗提醒，超過3次繼續閱覽後強制關閉分頁。
 // @author       YourName
-// @match        *://www.youtube.com/*
+// @match        *://*/*
 // @grant        none
 // ==/UserScript==
 
@@ -70,7 +70,7 @@
         const message = document.createElement('p');
         message.textContent = '時間到了！要關閉此分頁嗎？';
         message.style.cssText = `
-            font-size: 24px; font-weight: bold; line-height: 1.5; padding: 3rem 1rem;
+            font-size: 24px; font-weight: bold; line-height: 1.5; padding: 3rem 1rem; color : #000;
         `;
         popup.appendChild(message);
 
