@@ -76,7 +76,7 @@
 
         const btnDiv = document.createElement('div');
         btnDiv.style.cssText = `
-            display: inline-flex; margin: auto; justify-content: center !important;
+            display: block; margin: auto; justify-content: center !important;
         `;
 
         // 建立「重置並繼續瀏覽」按鈕
